@@ -1,0 +1,49 @@
+body{
+    background:  url(zk.jpg);
+    width: 95%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    background-repeat: none;
+}
+div.form{
+    background-color: rgba(0,0,0,0.5);
+    width: 360px;
+    height: 480px;
+    font-size: 30px;
+    border-radius: 30px;
+
+}
+h1{
+    font-size: 40px;
+    color: rgb(247, 6, 139);
+}
+h2{ font-size: 40px;
+    color: rgb(230, 31, 203);
+
+}
+input{background-color: rgb(243, 224, 234);
+    opacity: 0.9;
+    font-size: 30px;
+    color: rgb(103, 8, 246);
+    text-align: center;
+    border-radius: 40px; }
+
+
+
+button{background-color: rgb(6, 156, 136);
+    opacity: 0.9;
+    font-size: 30px;
+    color: rgb(136, 247, 219);
+    margin-top: 30px;
+    border-radius: 40px; }
+
+
+
+button:hover{background-color: rgb(173, 12, 12);
+    opacity: 0.9;
+    font-size: 30px;
+    color: rgb(136, 247, 219);
+    border-radius: 40px; }
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form-box">
+    <h1>Total Amount</h1>
+
+    <input type="number" id="totalAmount" placeholder="Enter Net Amount">
+    <br>
+    <input type="number" id="totalGold" placeholder="Enter Your Gold Tola">
+    <br>
+    <input type="number" id="TotalSilver" placeholder="Enter Your Silver Tola">
+
+    <br>
+
+    <button onclick="
+    let totalNetCash = document.getElementById('totalAmount').value;
+  
+    
+
+let totalGold = document.getElementById('totalGold').value;
+let totalGoldCash = totalGold*136000;
+
+let TotalSilver = document.getElementById('TotalSilver').value;
+let TotalSilverCash = TotalSilver*1630;
+
+let totalNetCashZakat= totalNetCash*0.025;
+
+let totalGoldCashZakat = totalGoldCash*0.025;
+
+let TotalSilverCashZakat = TotalSilverCash*0.025; 
+
+
+
+
+let totalZakat = totalNetCashZakat + totalGoldCashZakat + TotalSilverCashZakat;
+document.getElementById('heading').innerText =totalZakat;
+    ">
+    Click Here<br>
+    </button><br><br>
+    <h2 id="heading">YOUR'S ZAKAT</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>ALL THINGS OF THE ZAKAT</h1>
+    </div>
+    </div>
+</body>
+</html>
